@@ -1,6 +1,6 @@
 # Frontend Mentor - Ping coming soon page
 
-![Design preview for the Ping coming soon page coding challenge](public\assert\design\desktop-preview.jpg)
+![Design preview for the Ping coming soon page coding challenge](public/assert/design/desktop-preview.jpg)
 
 ## Frontend Mentor - Ping coming soon page solution
 
@@ -34,7 +34,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](public\assert\solution\solution.png)
+![](public/assert/solution/solution.png)
 
 ### Links
 
