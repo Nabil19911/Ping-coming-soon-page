@@ -4,7 +4,7 @@ const HeroImage = () => {
   return (
     <Div>
       <img
-        src="..\assert\images\illustration-dashboard.png"
+        src="../assert/images/illustration-dashboard.png"
         alt="illustration-dashboard"
         aria-hidden="true"
       />

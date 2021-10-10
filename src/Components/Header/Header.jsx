@@ -4,7 +4,7 @@ import Form from "../Form/Form";
 const Header = () => {
   return (
     <UpperSection>
-      <img src="..\assert\images\logo.svg" alt="Logo" aria-hidden="true" />
+      <img src="../assert/images/logo.svg" alt="Logo" aria-hidden="true" />
       <div>
         <h3>
           We are launching <span>soon!</span>

@@ -22,7 +22,7 @@ const Div = styled.div`
           margin-bottom: 0.5em;
         }
         @media only screen and (min-width: 1280px) {
-          width: 35em;
+          width: 25em;
         }
         &.error {
           border: 1px solid hsl(354, 100%, 66%);
@@ -36,12 +36,15 @@ const Div = styled.div`
           text-align: left;
           align-self: flex-start;
           margin-left: 2em;
+          position: absolute;
+          bottom: -15px;
         }
       }
       @media only screen and (orientation: landscape) {
         display: flex;
         flex-direction: column;
         align-items: center;
+        position: relative;
       }
     }
     button {
@@ -52,10 +55,13 @@ const Div = styled.div`
       background-color: hsl(223, 87%, 63%);
       color: white;
       font-weight: 600;
-      box-shadow: 1px 1px 10px 1px hsl(223, 87%, 63%);
+      box-shadow: 0 2px 5px 0 hsl(223, 87%, 63%);
+      cursor: pointer;
       &:hover {
-        box-shadow: 1px 1px 15px 1px hsl(223, 87%, 63%);
-        background: hsl(223, 100%, 88%);
+        background: hsl(223, 53.6%, 53.5%);
+      }
+      &:active {
+        box-shadow: 0 2px 10px 0 hsl(223, 87%, 63%);
       }
       @media only screen and (orientation: landscape) {
         width: 15em;

@@ -6,6 +6,9 @@ const Main = styled.div`
   max-width: 1440px;
   text-align: center;
   margin: 5em auto 2em auto;
+  @media only screen and (min-width: 1280px) {
+    margin: 2em auto;
+  }
   @media only screen and (min-width: 3840px) {
     position: absolute;
     top: 50%;

@@ -5,7 +5,11 @@ const Footer = () => {
     <FooterUI>
       <div className="logo__container">
         <div className="logo__wrapper">
-          <a href="https://www.facebook.com/" target="_blank">
+          <a
+            href="https://www.facebook.com/"
+            target="_blank"
+            aria-label="facebook"
+          >
             <svg
               aria-hidden="true"
               focusable="false"
@@ -24,7 +28,11 @@ const Footer = () => {
           </a>
         </div>
         <div className="logo__wrapper">
-          <a href="https://www.twitter.com/" target="_blank">
+          <a
+            href="https://www.twitter.com/"
+            target="_blank"
+            aria-label="twitter"
+          >
             <svg
               aria-hidden="true"
               focusable="false"
@@ -43,7 +51,11 @@ const Footer = () => {
           </a>
         </div>
         <div className="logo__wrapper">
-          <a href="https://www.instagram.com/" target="_blank">
+          <a
+            href="https://www.instagram.com/"
+            target="_blank"
+            aria-label="instagram"
+          >
             <svg
               aria-hidden="true"
               focusable="false"
